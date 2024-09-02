@@ -115,7 +115,7 @@ class _TickerTextState extends State<TickerText> {
   Widget build(BuildContext context) {
     return FadingEdgeScrollView.fromSingleChildScrollView(
       child: SingleChildScrollView(
-        physics: const NeverScrollableScrollPhysics(),
+        //physics: const NeverScrollableScrollPhysics(),
         scrollDirection: widget.scrollDirection,
         controller: _scrollController,
         child: widget.child,
